@@ -12,7 +12,11 @@
 class StringController
 {
 private:
-    
+    void brackets();
+    void atMethod();
+    void emptyString();
+    void substringMethod();
+    void endMethod();
 public:
    void start();
 };
