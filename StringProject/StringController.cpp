@@ -21,6 +21,8 @@ void StringController :: start()
     atMethod();
     emptyString();
     substringMethod();
+    endMethod();
+    compareMethod();
 }
 
 void StringController :: brackets()
@@ -59,6 +61,19 @@ void StringController:: substringMethod()
 
 void StringController:: endMethod()
 {
-    string temp = crystalizedHTwoO.substr(2, 6);
+    string temp = crystalizedHTwoO.substr(5);
     cout << temp << endl;
 }
+
+void StringController:: compareMethod()
+{
+    if (jamesTown.compare(secondString) == 0)
+    {
+        cout << "These are the same strings" << endl;
+    }
+    else
+    {
+          cout << "Horrible turn of events these are not the same strings" << endl;
+    }
+}
+

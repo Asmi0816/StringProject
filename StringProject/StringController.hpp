@@ -17,6 +17,7 @@ private:
     void emptyString();
     void substringMethod();
     void endMethod();
+    void compareMethod();
 public:
    void start();
 };
